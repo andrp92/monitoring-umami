@@ -1,0 +1,2 @@
+slack-auth-token = "YOUR_SLACK_TOKEN"
+json_key_path    = "YOUR_SA_JSON_PATH"
