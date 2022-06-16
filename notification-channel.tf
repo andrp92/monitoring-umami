@@ -33,3 +33,13 @@ resource "google_monitoring_notification_channel" "slack_notifications" {
     auth_token = var.slack-auth-token
   }
 }
+
+# Notifications to Email
+resource "google_monitoring_notification_channel" "email_notifications" {
+  type         = "email"
+  display_name = "Email notifications"
+  project      = var.project
+  labels = {
+    email_address = var.email_address
+  }
+}

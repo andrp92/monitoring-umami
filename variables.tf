@@ -24,6 +24,13 @@ variable "vm_filter" {
     default = ""
 }
 
+variable "host_address" {
+    default = "umami.andresrp.com"
+}
+
+variable "email_address" {
+}
+
 variable "vm_cpu_alert_policy_parameters" {
   default = {
     auto_close_interval         = "604800s",
