@@ -3,7 +3,7 @@ module "agent_policy" {
   version    = "~> 0.1.0"
 
   project_id = var.project
-  policy_id  = "Umami-Agent-Policy"
+  policy_id  = "ops-agents-umami-Agent-Policy"
   agent_rules = [
     {
       type               = "ops-agent"
